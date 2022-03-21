@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "./node_modules/.bin/cypress open"
   },
   "devDependencies": {
     "cypress": "^9.5.2",
